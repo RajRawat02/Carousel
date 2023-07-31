@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+.carousel {
+  text-align: center;
+  position: relative;
+}
+
+.carousel-item {
+  display: none;
+  cursor: pointer;
+}
+
+.active {
+  display: block;
+}
+
+.prev {
+  top: 50%;
+}
+
+.next {
+  top: 50%;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
